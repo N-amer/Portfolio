@@ -1,11 +1,14 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 nav {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     background-color: #cfcccc;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
     position: fixed;
